@@ -217,7 +217,7 @@ public void Login() throws InterruptedException {
 	}
  
  
- @AfterMethod
+ 
 @AfterTest
  public void tearDown() {
  	
