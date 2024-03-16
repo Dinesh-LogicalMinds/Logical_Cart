@@ -128,7 +128,7 @@ public void Proceed_Buy_Valid_Data11() throws InterruptedException,TimeoutExcept
     
     
     
-    @AfterMethod
+   
 	@AfterTest
     public void tearDown() {
     	
