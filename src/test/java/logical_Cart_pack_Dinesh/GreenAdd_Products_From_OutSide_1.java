@@ -273,7 +273,7 @@ public static WebDriver driver;
 	}
     
     
-    @AfterMethod
+   
 	@AfterTest
     public void tearDown() {
     	
