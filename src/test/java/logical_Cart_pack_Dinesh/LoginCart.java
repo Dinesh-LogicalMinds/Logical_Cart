@@ -121,7 +121,7 @@ public class LoginCart {
     
     
     
-    @AfterMethod
+   
 	@AfterTest
     public void tearDown() {
     	
