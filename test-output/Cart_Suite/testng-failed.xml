@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cart_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="logicalcartTest.IncreaseDecreaseCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseClass"/>
+          <include name="clickproduct"/>
+          <include name="RemoveFunctionality"/>
+        </methods>
+      </class> <!-- logicalcartTest.IncreaseDecreaseCart -->
+      <class name="logicalcartTest.AddTocart_outside">
+        <methods>
+          <include name="addToCartFromMeatSection"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- logicalcartTest.AddTocart_outside -->
+      <class name="logicalcartTest.Addbuttonandminusbutton">
+        <methods>
+          <include name="clickproduct"/>
+          <include name="RemoveFunctionality"/>
+          <include name="baseClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- logicalcartTest.Addbuttonandminusbutton -->
+      <class name="logicalcartTest.Location">
+        <methods>
+          <include name="location_negative"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- logicalcartTest.Location -->
+      <class name="logicalcartTest.Posters">
+        <methods>
+          <include name="posters"/>
+          <include name="tearDown"/>
+          <include name="basic"/>
+          <include name="meatposter"/>
+          <include name="riceposter"/>
+        </methods>
+      </class> <!-- logicalcartTest.Posters -->
+      <class name="logicalcartTest.AddToCart">
+        <methods>
+          <include name="addProductsTest"/>
+          <include name="tearDown"/>
+          <include name="basic"/>
+          <include name="eggandnuts"/>
+        </methods>
+      </class> <!-- logicalcartTest.AddToCart -->
+      <class name="logicalcartTest.hompageaddbuttonandcarttext">
+        <methods>
+          <include name="Green_Getting_Title"/>
+          <include name="basic"/>
+          <include name="addProductsTest_3"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- logicalcartTest.hompageaddbuttonandcarttext -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Cart_Suite] -->

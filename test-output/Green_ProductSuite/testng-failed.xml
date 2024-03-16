@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Green_ProductSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="pack.RemoveProducts_FromCart">
+        <methods>
+          <include name="basic"/>
+          <include name="Login"/>
+          <include name="RemoveProducts_From_Cart"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pack.RemoveProducts_FromCart -->
+      <class name="pack.GreenAdd_Products_From_OutSide_1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="basic"/>
+          <include name="Login"/>
+          <include name="Greens_addProducts_Test_1_OutSide"/>
+        </methods>
+      </class> <!-- pack.GreenAdd_Products_From_OutSide_1 -->
+      <class name="pack.GreenAdd_Products_From_OutSide_2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Greens_addProductsTest_OutSide_2"/>
+          <include name="basic"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- pack.GreenAdd_Products_From_OutSide_2 -->
+      <class name="pack.Proceed_Buying">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Login"/>
+          <include name="basic"/>
+          <include name="Proceed_Buy_Valid_Data"/>
+        </methods>
+      </class> <!-- pack.Proceed_Buying -->
+      <class name="pack.Getting_GreenProduct_Title">
+        <methods>
+          <include name="Login"/>
+          <include name="basic"/>
+          <include name="tearDown"/>
+          <include name="Green_Getting_Title"/>
+        </methods>
+      </class> <!-- pack.Getting_GreenProduct_Title -->
+      <class name="pack.GreenAdd_Products_From_InSide">
+        <methods>
+          <include name="Greens_addProducts_Test_1_Inside"/>
+          <include name="tearDown"/>
+          <include name="basic"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- pack.GreenAdd_Products_From_InSide -->
+      <class name="pack.LoginCart">
+        <methods>
+          <include name="basic"/>
+          <include name="validLoginTest"/>
+          <include name="invalidLoginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pack.LoginCart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Green_ProductSuite] -->

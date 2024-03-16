@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="logical_Cart_pack_Dinesh.GreenAdd_Products_From_OutSide_1"/>
+      <class name="logical_Cart_pack_Dinesh.GreenAdd_Products_From_OutSide_2"/>
+      <class name="logical_Cart_pack_Dinesh.GreenAdd_Products_From_InSide"/>
+      <class name="logical_Cart_pack_Dinesh.RemoveProducts_FromCart"/>
+      <class name="logical_Cart_pack_Dinesh.Getting_GreenProduct_Title"/>
+      <class name="logical_Cart_pack_Dinesh.LoginCart"/>
+      <class name="logical_Cart_pack_Dinesh.Proceed_Buying"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="logical_Cart_pack_Dinesh.LoginCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="basic"/>
+          <include name="validLoginTest"/>
+          <include name="invalidLoginTest"/>
+        </methods>
+      </class> <!-- logical_Cart_pack_Dinesh.LoginCart -->
+      <class name="logical_Cart_pack_Dinesh.Proceed_Buying">
+        <methods>
+          <include name="Login"/>
+          <include name="basic"/>
+          <include name="tearDown"/>
+          <include name="Proceed_Buy_Valid_Data11"/>
+        </methods>
+      </class> <!-- logical_Cart_pack_Dinesh.Proceed_Buying -->
+      <class name="logical_Cart_pack_Dinesh.GreenAdd_Products_From_InSide">
+        <methods>
+          <include name="Login"/>
+          <include name="tearDown"/>
+          <include name="basic"/>
+          <include name="Greens_addProducts_Test_1_Inside"/>
+        </methods>
+      </class> <!-- logical_Cart_pack_Dinesh.GreenAdd_Products_From_InSide -->
+      <class name="logical_Cart_pack_Dinesh.RemoveProducts_FromCart">
+        <methods>
+          <include name="RemoveProducts_From_Cart"/>
+          <include name="basic"/>
+          <include name="tearDown"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- logical_Cart_pack_Dinesh.RemoveProducts_FromCart -->
+      <class name="logical_Cart_pack_Dinesh.Getting_GreenProduct_Title">
+        <methods>
+          <include name="Login"/>
+          <include name="tearDown"/>
+          <include name="basic"/>
+          <include name="Green_Getting_Title"/>
+        </methods>
+      </class> <!-- logical_Cart_pack_Dinesh.Getting_GreenProduct_Title -->
+      <class name="logical_Cart_pack_Dinesh.GreenAdd_Products_From_OutSide_1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Greens_addProducts_Test_1_OutSide"/>
+          <include name="Login"/>
+          <include name="basic"/>
+        </methods>
+      </class> <!-- logical_Cart_pack_Dinesh.GreenAdd_Products_From_OutSide_1 -->
+      <class name="logical_Cart_pack_Dinesh.GreenAdd_Products_From_OutSide_2">
+        <methods>
+          <include name="Greens_addProductsTest_OutSide_2"/>
+          <include name="Login"/>
+          <include name="basic"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- logical_Cart_pack_Dinesh.GreenAdd_Products_From_OutSide_2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
